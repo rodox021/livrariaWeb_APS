@@ -1,3 +1,10 @@
 :root{
+    --bg-color-primary: #7F66D9;
+    --bg-color-deep: #F2F2F2;
+    --bg-color-secondary: #A36FCB;
+
+    --color-text-selected: #30D96B;
+
     --color-text-primary: white;
 }
+

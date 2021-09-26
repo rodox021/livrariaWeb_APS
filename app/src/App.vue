@@ -1,9 +1,9 @@
 <template>
   <div id="app">
     <Header title="Aplication" />
-    <Menu/>
-    <Content/>
-    <Footer/>
+    <Menu />
+    <Content />
+    <Footer />
   </div>
 </template>
 
@@ -32,21 +32,22 @@ export default {
   padding: 0;
   font-family: "Roboto", sans-serif;
 }
+
 body {
 }
+
 #app {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   height: 100vh;
   display: grid;
   grid-template-areas:
-  'header'
-  'menu'
-  'content'
-  'footer'
-    ;
-    
-  grid-template-rows: 100px 30px 1fr 20px;
+    "header"
+    "menu"
+    "content"
+    "footer";
+
+  grid-template-rows: 100px 50px 1fr 30px;
   grid-template-columns: 1fr;
 }
 </style>

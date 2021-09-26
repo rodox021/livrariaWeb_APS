@@ -1,17 +1,15 @@
 <template>
-  <div class="content">CONTENT</div>
+  <router-view></router-view>
 </template>
 
 <script>
 export default {
-    name: 'Content'
-
-}
+  name: "Content",
+};
 </script>
 
 <style>
-.content{
-    background-color: lightgray;
-    grid-area: content;
+.content {
+  grid-area: content;
 }
 </style>
