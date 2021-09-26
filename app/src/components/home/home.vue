@@ -14,17 +14,16 @@ export default {
       msg: null,
     };
   },
-
   methods: {
     BoasVindas() {
       var now = new Date();
-
       var hour = now.getHours();
-      if (hour > 6 && hour < 12) {
+
+      if (hour >= 6 && hour < 12) {
         this.msg = "Bom Dia";
-      } else if (hour > 12 && hour < 18) {
+      } else if (hour >= 12 && hour < 18) {
         this.msg = "Boa tarde";
-      } else if (hour > 18) {
+      } else if (hour >= 18) {
         this.msg = "Boa Noite";
       }
 
